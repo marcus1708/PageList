@@ -1,0 +1,18 @@
+Back-End
+ >> npm install
+ >> npm run dev
+
+
+docker run --name redis -p 6379:6379 -d redis
+docker run --name mongodb -p 27017:27017 -d mongo
+
+
+Criar rotas de autenticação (login/cadastro com JWT)
+
+Criar o esquema de tarefas (lista de compras)
+
+Implementar WebSocket com Redis Pub/Sub
+
+Ou configurar testes e organização de pastas
+
+configurar um script no package.json pra rodar mais fácil com npm run dev
